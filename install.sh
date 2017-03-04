@@ -129,12 +129,12 @@ sed -i "s/ssl=1/ssl=0/g" /etc/webmin/miniserv.conf
 cd
 
 #config upload
-wget -O /home/vps/public_html/client.ovpn " https://raw.githubusercontent.com/zero9911/script/master/script/max.ovpn"
+wget -O /home/vps/public_html/client.ovpn "https://https://raw.githubusercontent.com/hajimxmiku/hajimxmiku12_autoscript_2017/master/max.ovpn"
 sed -i "s/ipserver/$myip/g" /home/vps/public_html/max.ovpn
 cd
 
 clear
-
+R
 echo "
 BLOCK TORRENT PORT INSTALL
 COMPLETE 94%
